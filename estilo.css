@@ -11,7 +11,6 @@
     }
     
     #logomarca{
-        border: solid 1px var(--Cinza_claro);
         width: 100vw;
         height: 5vw;
         display: flex;
@@ -56,7 +55,7 @@
         width: 40vw;
         float: right;
         margin-left: 45vw;
-        margin-top: -31vw;
+        margin-top: -29vw;
     }
     
     #botao{
@@ -67,7 +66,6 @@
         align-items: center;
         text-align: center;
         justify-content: center;
-        /* border: red 2px solid; */
         display: flex;  
         margin-top: -5rem;
         margin-left: 1rem;
@@ -82,11 +80,16 @@
         font-weight: 900;
     }
     
+    #companhias{
+        margin-left: 4vw;
+    }
+
     #latam{
         height: 7rem;
         width: 7rem;
         margin-top: 2rem;
         margin-left: 4.5rem;
+        margin-right: 6rem;
     }
     
     #expedia{
@@ -94,6 +97,7 @@
         width: 7rem;
         margin-left: 4.5rem;
         margin-bottom: 1.5rem;
+        margin-right: 6rem;
     }
     
     #qantas{
@@ -101,6 +105,7 @@
         width: 7rem;
         margin-bottom: 2.5rem;
         margin-left: 9rem;
+        margin-right: 6rem;
     }
     
     #alitalia{
@@ -108,6 +113,7 @@
         width: 7rem;
         margin-bottom: 2.5rem;
         margin-left: 6rem;
+        margin-right: 6rem;
     }
     
     #aviao{
@@ -115,17 +121,17 @@
         margin-left: 4.5rem;
     }
     
-    .imagen1{
-        
+    .imagen1{ 
         height: 15rem;
         width: 12rem;
         border-radius: 1.5rem;
-        margin-left: 3rem;
+        margin-left: 7rem;
         background-size: cover;
     }
     
     #paisagem{
         display: flex;
+        
     }
     
     .imagen1:nth-of-type(1){
@@ -163,7 +169,7 @@
     
     #reserva{
         margin-top: 5rem;
-        margin-left: 5rem;
+        margin-left: 8rem;
     }
     
     .tipos{
@@ -198,7 +204,7 @@
         color: #9A9EA6;
     }
     #img{
-        margin-left: 30rem;
+        margin-left: 45rem;
         margin-top: -32rem;
         width: 35rem;
     }
@@ -225,7 +231,7 @@
     
     #mapa{
         width: 80vw;
-        height: 27vw;
+        height: 25vw;
         display: flex;
         margin-left: 10vw;
         background-image: url(imagens/mapa.png);
@@ -235,6 +241,7 @@
     #voce{
         display: flex;
         margin: auto;
+        margin-left: 15vw;
     }
     
     .local{
@@ -273,8 +280,8 @@
     
     
     #l1{
-        height: 9rem;
-        width: 10rem;
+        height: 10rem;
+        width: 14rem;
         border-radius: 0.5rem 0.5rem 0rem 0rem;
         background-image: url(imagens/destino4.png);
         background-size: cover;
@@ -282,8 +289,8 @@
     }
     
     #l2{
-        height: 10rem;
-        width: 10rem;
+        height: 13rem;
+        width: 14rem;
         border-radius: 0rem 0rem 0.5rem 0.5rem;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     }
@@ -316,9 +323,9 @@
     }
     
     #video{
-        height: 45vw;
-        margin-left: 15vw;
-        margin-top: -30vw;
+        height: 40vw;
+        margin-left: 20vw;
+        margin-top: -24vw;
     }
     
     #seila{
